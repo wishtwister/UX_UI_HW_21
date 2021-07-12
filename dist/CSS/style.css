@@ -1,0 +1,475 @@
+@media only screen and (max-width: 600px){
+    .flexContainer{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap, auto;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .projects{
+        grid-template-columns: 1fr!important;
+    }
+
+
+    .flexContainer2{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        word-wrap: break-word;
+        text-align: center;
+        width:100%;
+    }
+
+    h5{
+        display:none;
+    }
+    .gridContainer{
+        display: grid;
+        grid-template-columns: 1fr !important;
+        grid-auto-rows: minmax(300px,auto);
+        padding: 20px;
+    }
+    .flexContainer4{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: left;
+        justify-content: space-around;
+    }
+    .navbar{
+        display:none !important;
+    }
+}
+
+@media only screen and (max-width: 1400px){
+    .navbar{
+        display: none !important;
+    }
+    .main-header{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .container h5{
+        display:none;
+    }
+}
+
+.main-header {
+    display: flex;
+    color: #c23b3b;
+}
+
+.main-header img:hover{
+   cursor: pointer;
+}
+body{
+    font-family:'Open Sans', sans-serif;
+    font-size: 20px;
+    line-height: 1.6em;
+    margin: 0;
+    
+}
+
+h1{
+    font-family:'Open Sans', sans-serif;
+    font-size: 40px;
+    line-height: 1.5em;
+    margin: 0;
+    font-weight: bold;
+    cursor: pointer;
+}
+.columnMiddle a{
+    font-family:'Open Sans', sans-serif;
+    font-size: 40px;
+    line-height: 1.5em;
+    margin: 0;
+    font-weight: bold;
+    cursor: pointer;
+    color: #c23b3b;
+}
+
+.columnMiddle a:hover {
+    text-decoration: none;
+}
+
+.columnLeft{
+    flex:1;
+    width: 200px;
+    margin-top: 20px;
+    padding-bottom: 0px;
+}
+
+.columnMiddle{
+    flex:4;
+    margin-top: 20px; 
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 0px;
+}
+
+.columnRight input{
+    flex:1;
+    width: 450px;
+    padding: 10px;
+    font-size: 18px;
+    margin-right: 50px;
+    margin-top: 60px;
+    display: inline;
+    border-radius: 8px;
+    background-image: url("../Images/Search.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    outline: none;
+}
+
+.columnRight input::placeholder{
+    color: black;
+}
+
+.container h1{
+    float: center;
+    width:100%;
+    padding: 0px;
+    height: auto;
+}
+
+h1{
+    float: center;
+    width:400px;
+    height: auto;
+}
+.navbar{
+    background-color: #074a7b;
+    height:100px;
+    padding:1px;
+    margin: 0px;
+}
+.navbar a{
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.navbar a:hover {
+    background-color: #c23b3b;
+}
+.flex{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.drop:hover, .drop1:hover{
+    background-color: #c23b3b;
+}
+/* Drop Button */
+.drop {
+    background-color: #074a7b;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-top: 14px;
+  }
+.drop::after {
+    content:'\25be';
+    transform: scale(1.5);
+    margin-left: 10px;
+    color: white;
+}
+
+.drop1 {
+    background-color: #074a7b;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-top: 11px;
+  }
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #074a7b;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
+  .column2 {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1.5;
+  }
+  
+  .imgContainer{
+    height: 100px;
+    margin-left: 120px;
+    margin-top: 80px;
+  }
+  
+  .paymentContainer {
+    width: 50px;
+    height: 100px;
+    margin-top:100px;
+    margin-bottom: 50px;
+    font-weight: 300;
+    font-size: 64px;
+  }
+
+.resize{
+    transform: scale(3);
+}
+
+.resize:hover{
+    cursor: pointer;
+}
+
+/*Payment blue container*/
+.formContainer{
+    background-color: #CBE5F8;
+    width: 90%;
+    margin:auto;
+    margin-top:20px;
+    padding: 10px;
+    border-radius: 8px;
+    border-style: solid;
+}
+
+.formDedication1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    margin-left: 70px;
+    padding: 20px;
+}
+
+.formDedication1 label{
+    font-weight: bold;
+    margin-left: 20px;
+    flex: 1;
+}
+
+.formDedication1 input{
+    height: 89px;
+    margin-left: 0px;
+    width: 100%;
+    border-style: solid;
+    border-color: black;
+    flex: 1;
+}
+
+
+.formDedication{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    margin-left: 70px;
+    padding: 20px;
+}
+
+.formDedication label{
+    font-weight: bold;
+    margin-left: 20px;
+    flex: 1;
+}
+
+.formDedication input{
+    height: 89px;
+    margin-right: 80px;
+    width: 500px;
+    border-style: solid;
+    border-color: black;
+}
+
+
+.buttonContainer{
+    display: flex;
+}
+
+.googlePlayButton{
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    width: 731px;
+    height: 89px;
+    font-size: 35px;
+    justify-content: center;
+    margin: auto;
+    margin-top: 93px;
+}
+
+.googlePlayButton:focus{
+    outline:0;
+}
+
+h3 {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+h3:before {
+    content: "";
+    display: block;
+    width: 400px;
+    height: 2px;
+    background: #000;
+    left: 200px;
+    top: 780px;
+    position: absolute;
+  }
+
+  h3:after {
+    content: "";
+    display: block;
+    width: 400px;
+    height: 2px;
+    background: #000;
+    right: 200px;
+    top: 780px;
+    position: absolute;
+  }
+
+.form-check{
+    padding-bottom: 30px;
+}
+
+.form-check label{
+    padding-left: 10px;
+    font-size: 25px;
+}
+
+.form-check input{
+    transform: scale(2);
+}
+
+
+.textContainer{
+    width: 70%;
+    margin:auto;
+    margin-top:70px;
+    margin-bottom:50px;
+}
+
+.form-check input label{
+    text-align: center;
+    margin: auto;
+}
+
+.redRectangle{
+    background-color: #c23b3b;
+    height:89px;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    margin: auto;
+    padding-top: 25px;
+    border-style: solid;
+    border-color: black;
+    margin-bottom: 150px;
+    margin-top: 150px;
+}
+
+.nextContainer{
+    display:flex;
+    width: 100%;
+}
+.next{
+    background-color:rgba(160, 61, 61, 0.5);
+    border: black;
+    border-radius: 8px;
+    color: white;
+    padding: 15px;
+    width: 170px;
+    margin-left: auto;
+    margin-right: 120px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.next:hover{
+    background-color: #c23b3b;
+    cursor: pointer;
+}
+
+  /*footer*/
+
+footer{
+    background-color: #074a7b;
+    color: white;
+    padding: 20px;
+}
+
+.footer1{
+    flex:1;
+}
+
+.footer2{
+    flex:3;
+}
+
+.footer3{
+    flex: 1;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.flexContainer4{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    justify-content: space-around;
+}
+
+.flexContainer4 div{
+    padding: 10px 50px 10px 50px;
+}
